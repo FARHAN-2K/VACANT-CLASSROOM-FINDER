@@ -1,0 +1,114 @@
+/* Global Layout */
+body {
+    background-color: #0f0f0f;
+    color: #e5e5e5;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 40px 0;
+}
+
+/* Centered container */
+.container {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Titles */
+h1, h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #eeeeee;
+}
+
+/* Form Card */
+.form-card {
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 14px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border: 1px solid #242424;
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+    background: #121212;
+    border: 1px solid #333;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #10a37f;
+    outline: none;
+    box-shadow: 0 0 8px #10a37f;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #10a37f;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #0d8a6f;
+}
+
+/* Admin Button */
+.admin-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 20px;
+    background: #10a37f;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.admin-btn:hover {
+    background: #0d8a6f;
+}
+
+/* Search Result Card */
+.result-card {
+    background: #161616;
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: 20px;
+    border: 1px solid #2a2a2a;
+}
+
+/* Back / logout */
+.back-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 18px;
+    background: #333;
+    color: #eee;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.back-btn:hover {
+    background: #444;
+}
